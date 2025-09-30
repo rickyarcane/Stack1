@@ -1,0 +1,17 @@
+{
+  "name": "social-ai-mvp-backend",
+  "version": "0.1.0",
+  "main": "src/api.js",
+  "scripts": {
+    "start": "node src/api.js",
+    "worker": "node src/worker.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "pg": "^8.11.0",
+    "bullmq": "^1.74.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  }
+}
